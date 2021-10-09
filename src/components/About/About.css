@@ -1,0 +1,46 @@
+.about__description {
+    display: flex;
+    margin-top: 156px;
+    margin-left: 106px;
+    color: #22356F;
+    font-size: 16px;
+}
+
+.about__description h4 {
+    margin-top: 8px;
+    margin-left: 225px;
+    font-size: 24px;
+    width: 592px;
+}
+
+.about__help {
+    text-align: center;
+    margin-top: 70px;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.about__blocks {
+    display: flex;
+    margin-top: 27px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* .about__block_title{
+    box-shadow: inset 0px 1px 0px #FFFFFF;
+    } */
+
+.about__blocks h2 {
+    font-size: 32px;
+}
+
+
+.about__first_block,
+.about__second_block,
+.about__third_block,
+.about__forth_block {
+    padding-left: 53px;
+    padding-right: 53px;
+    width: 320px;
+    height: 320px;
+}

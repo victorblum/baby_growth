@@ -1,0 +1,5 @@
+.main-page {
+    margin: auto;
+    padding: 42px calc(50% - 500px);
+    width: 1280px;
+}
