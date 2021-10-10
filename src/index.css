@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
 body {
-  margin: 0;
+  margin: auto;
   font-family: 'Arimo', sans-serif;
   background-color: #F4F9E2;
-  width: 1280px;
+  max-width: 1280px;
 }
 
 /* code {

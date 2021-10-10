@@ -36,33 +36,37 @@ export default class Filters extends Component {
                     </div>
                     <div className="filters__blocks">
                         <div className="filters__up">
-                            <div className="filters__up_left" style={{background: "#ffc0cb"}}>
+                            <div className="filters__up_left" style={{background: "#2a9d8f"}}>
                                 <h2 className="filters__title">Physical evolve</h2>
                                 <p className="filters__title_discribe">Large and small motor skills, coordination</p>
-                                <div className="filters__h4">
+                                <hr/>
+                                {/* <div className="filters__h4">
                                     <h4 className="filters__head_theme">Evolve of large motor skills</h4>
                                     <h4 className="filters__head_theme">Evolve of small motor skills</h4>
-                                </div>
+                                </div> */}
                             </div>
-                            <div className="filters__up_right" style={{background: "#C4E769"}}>
-                                <h2 className="filters__title">Social evolve and emotional environment</h2>
+                            <div className="filters__up_right" style={{background: "#e9c46a"}}>
+                                <h2 className="filters__title">Social evolve and emotional environ </h2>
                                 <p className="filters__title_discribe">Calming down, exploring emotions</p>
-                                <div className="filters__h4">
+                                <hr/>
+                                {/* <div className="filters__h4">
                                     <h4 className="filters__head_theme">Behavior</h4>
                                     <h4 className="filters__head_theme">Evolve of small motor skills</h4>
-                                </div>
+                                </div> */}
                             </div>                  
                         </div>
                         <div className="filters__down">
-                            <div className="filters__down_left" style={{background: "#ffbc40"}}>
+                            <div className="filters__down_left" style={{background: "#f4a261"}}>
                                 <h2 className="filters__title">Speech</h2>
                                 <p className="filters__title_discribe">Calming down, exploring emotions</p>
-                                <h4 className="filters__head_theme">Passive vocabulary - the name of objects, the evolve of active speech</h4>
+                                <hr/>
+                                {/* <h4 className="filters__head_theme">Passive vocabulary - the name of objects, the evolve of active speech</h4> */}
                             </div>                        
-                            <div className="filters__down_right" style={{background: "#62D0DF"}}>
+                            <div className="filters__down_right" style={{background: "#264653"}}>
                                 <h2 className="filters__title">Cognitive sphere</h2>
                                 <p className="filters__title_discribe">Consciousness</p>
-                                <h4 className="filters__head_theme">Auditory, tactile, visual perception, memory, attention, thinking</h4>
+                                <hr/>
+                                {/* <h4 className="filters__head_theme">Auditory, tactile, visual perception, memory, attention, thinking</h4> */}
                             </div>
                         </div>   
                     </div>

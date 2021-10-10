@@ -1,0 +1,60 @@
+.log__content {
+    color: #264653;
+}
+
+.log {
+    margin-top: 25px;
+    display: flex;
+}
+
+.childrens {
+    margin-top: 160px;
+    width: 300px;
+    height: 600px;
+}
+
+.log__description {
+    margin-left: 35%;
+}
+
+
+
+
+ .decor {
+    max-width: 400px;
+ }
+
+ .form-inner {
+    padding: 50px;
+    width: 300px;
+ }
+ .form-inner input, .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    outline-color: #62D0DF;
+ }
+ .form-inner input[type="submit"] {
+    margin-top: 30px;
+    background-color: #62D0DF;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    transition: all .3s ease;
+ }
+
+.form-inner input[type="submit"]:hover {
+    background-color: pink;
+    cursor: pointer; 
+}
+
+ .form-inner textarea {
+    resize: none;
+ }

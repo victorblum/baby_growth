@@ -9,6 +9,11 @@
     width: 190px;
 }
 
+h2, p {
+    margin: 0;
+    margin-top: 15px;
+}
+
 .myUl li a {
     background-color: #755553;
     font-weight: 600;
@@ -36,6 +41,12 @@
     color: #FFFFFF;
 }
 
+hr {
+    border: none;
+    background-color: #FFFFFF;
+    height: 2px;
+   }
+
 .filters__up, .filters__down {
     display: flex;
 }
@@ -43,6 +54,7 @@
 .filters__h4{
     display: flex;
     justify-content: space-around;
+    margin-top: 10px;
 }
 
 .filters__head_theme {
@@ -50,19 +62,15 @@
 }
 
 .filters__blocks h2 {
-    font-size: 32px;
-}
-
-.filters__title_discribe{
-box-shadow: inset 0px -1px 0px #FFFFFF;
+    font-size: 23px;
 }
 
 .filters__down_left,
 .filters__down_right,
 .filters__up_left,
 .filters__up_right {
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
     height: 378px;
-    width: 405px;
+    width: 404px;
 }

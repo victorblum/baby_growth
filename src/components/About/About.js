@@ -16,16 +16,16 @@ export default class About extends Component {
                 </div>
                 <p className="about__help">WE CAN HELP YOU WITH</p>
                 <div className="about__blocks">
-                    <div className="about__first_block" style={{background: "#22356F"}}>
+                    <div className="about__first_block" style={{background: "#264653"}}>
                         <h2 className="about__block_title">Physical evolve</h2>
                     </div>
-                    <div className="about__second_block" style={{background: "#0052C1"}}>
+                    <div className="about__second_block" style={{background: "#2a9d8f"}}>
                         <h2 className="about__block_title">Social evolve and emotional environment</h2>
                     </div>                  
-                    <div className="about__third_block" style={{background: "#62D0DF"}}>
+                    <div className="about__third_block" style={{background: "#e9c46a"}}>
                         <h2 className="about__block_title">Speech</h2>
                     </div>                        
-                    <div className="about__forth_block" style={{background: "#DEE1FF"}}>
+                    <div className="about__forth_block" style={{background: "#f4a261"}}>
                         <h2 className="about__block_title">Cognitive sphere</h2>
                     </div>
                 </div>

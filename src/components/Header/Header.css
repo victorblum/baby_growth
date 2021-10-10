@@ -16,7 +16,7 @@
 
 .nav-link {
     text-decoration: none;
-    color: #22356F !important;
+    color: #264653 !important;
 }
 
 .nipple {
@@ -33,7 +33,7 @@
     justify-content: space-between;
     width: 330px;
     list-style-type: none;
-    color: #22356F;
+    color: #264653;
     font-size: 14px;
 }
 
@@ -50,7 +50,7 @@
 	left: 0;
 	width: 0;
 	height: 1px;
-	background-color: #22356F;
+	background-color: #264653;
 	content: "";
 	transition: width 0.4s ease-out;
 }
@@ -68,7 +68,6 @@
     border-radius: 50px;
     border: none;
     font-size: 14px;
-    z-index: 2;
     transition: all .3s ease;
 }
 
