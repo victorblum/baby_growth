@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import children from './children.png'
+import children3 from './children3.png'
 import './Login.css';
 
 export default class Login extends Component {
@@ -19,7 +19,7 @@ export default class Login extends Component {
 			<div className="log__description">
 				<form style={{ display: showFormLogin }} className="log__form">
 					<h2 className="log__header">
-						Baby account
+						Your account
 					</h2>
 					<input className="log__input" type="text" name="username" placeholder="Username"/>
 					<input className="log__input" type="password" name="pass" placeholder="Password"/>
@@ -33,7 +33,7 @@ export default class Login extends Component {
 					</div>
 					<div className="log__links">
 						<Link className="log__link" to="/registration">
-							Create baby account						
+							Create new account						
 						</Link>
 					</div>
 				</form>
@@ -46,7 +46,7 @@ export default class Login extends Component {
 						RESET
 					</button>
 				</form>
-				<img src={children} className="children" alt="children_image" />
+				<img src={children3} className="children3" alt="children_image" />
 			</div>
         )
     }

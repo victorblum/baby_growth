@@ -14,23 +14,25 @@ h2, p {
     margin-top: 15px;
 }
 
-.myUl li a {
+.myUl li button {
     background-color: #755553;
     font-weight: 600;
     text-align: center;
+    border: none;
     line-height: 5em;
-    height: 102px;
+    height: 126px;
+    width: 100%;
     margin-top: -1px; 
     padding: 12px;
-    text-decoration: none;
     font-size: 20px;
+    cursor: pointer;
     color: #FFFFFF;
     transition: all .4s ease;
     display: block; 
     margin: 0;
 }
 
-.myUl li a:hover:not(.header) {
+.myUl li button:hover:not(.header) {
     background-color: #f2dfd3;
     color: #755553;
 }
@@ -41,23 +43,30 @@ h2, p {
     color: #FFFFFF;
 }
 
-hr {
+.filters__blocks hr {
     border: none;
     background-color: #FFFFFF;
     height: 2px;
-   }
+}
 
 .filters__up, .filters__down {
     display: flex;
 }
 
-.filters__h4{
-    display: flex;
-    justify-content: space-around;
+.filters__head_theme {
+    margin: 0;
     margin-top: 10px;
 }
 
-.filters__head_theme {
+.filters__descrip hr {
+    border: none;
+    background-color: #FFFFFF;
+    height: 1px;
+    width: 20px;
+    margin-left: 0;
+}
+
+.description_block {
     margin: 0;
 }
 

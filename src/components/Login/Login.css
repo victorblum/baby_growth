@@ -7,8 +7,12 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 60px;
+  margin-top: 120px;
   text-align: center;
+}
+
+.log__form, .log__form_password {
+  margin-left: 50px;
 }
 
 .log__input {
@@ -80,3 +84,10 @@ input {
   background-color: pink;
   cursor: pointer; 
 }
+
+.children3 {
+  width: 700px;
+  height: 416px;
+  z-index: 2;
+}
+

@@ -3,52 +3,61 @@
 }
 
 .reg {
-    margin-top: 75px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
 }
 
-.childrens {
-    width: 600px;
-    height: 566px;
+.children2 {
+    width: 500px;
+    height: 366px;
+    z-index: 2;
 }
 
-h2 {
+.reg__header {
+    line-height: 70px;
     font-size: 22px;
 }
 
 .reg__description {
-    margin-left: 100px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
 
-.form-inner input {
+.decor__input {
     font-size: 15px;
+    line-height: 1.2;
+    color: #264653;
     display: block;
-    width: 100%;
-    padding: 0 20px;
-    margin-bottom: 10px;
+    width: 70%;
     background: #E9EFF6;
-    line-height: 40px;
-    border-width: 0;
-    border-radius: 20px;
-    outline: none;
+    height: 50px;
+    border-radius: 25px;
+    padding: 0 30px 0 53px;
+    margin-bottom: 10px;
 }
 
-.form-inner select {
-    font-size: 15px;
-    display: block;
-    height: 40px;
-    width: 100%;
-    padding: 0 20px;
-    margin-bottom: 10px;
-    background: #E9EFF6;
-    border-width: 0;
-    border-radius: 20px;
-    outline: none;
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .radio {
     display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #264653;
+    font-size: 15px;
+}
+
+.reg__content h4 {
+    margin: 0;
+    margin-top: 45px;
 }
 
 .reg__button {
@@ -60,11 +69,10 @@ h2 {
     border: none;
     font-size: 14px;
     transition: all .3s ease;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 45px;
 }
 
 .reg__button:hover {
     background-color: pink;
     cursor: pointer; 
-  }
+}
