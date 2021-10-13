@@ -11,7 +11,7 @@ export default class PersonalPage extends Component {
                 <Header />
                 <main className="personal-page__content">
                     <section className="personal-page__description">
-      
+                    <h1>Sorry. This page is under construction.</h1>
                     </section>
                 </main>
              </div>

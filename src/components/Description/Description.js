@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import './Description.css';
 import children from './children.png'
 import { Link } from 'react-router-dom';
+
+import './Description.css';
 
 export default class Description extends Component {
     render() { 
@@ -19,7 +20,6 @@ export default class Description extends Component {
                     </div>
                 </div>
                 <img src={children} className="children" alt="children_image" />
-                {/* <div className="ellipse"></div> */}
             </div>
         );
     }

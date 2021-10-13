@@ -2,3 +2,9 @@
     margin: auto;
     padding: 42px;
 }
+
+.personal-page__description {
+    color: #264653;
+    text-align: center;
+    margin-top: 20rem;
+}   

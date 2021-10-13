@@ -1,3 +1,15 @@
+.ellipse {
+  border-top-left-radius: 450px;
+  border-bottom-left-radius: 450px;
+  width: 55%;
+  height: 100%;
+  background: #EDFDFF;
+  position: absolute;
+  left: 45%;
+  top: 0%;
+  z-index: -1;
+}
+
 /* .App {
   text-align: center;
 }
