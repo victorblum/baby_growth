@@ -43,6 +43,10 @@ h2, p {
     color: #FFFFFF;
 }
 
+.filters__blocks {
+    position: relative;
+}
+
 .filters__blocks hr {
     border: none;
     background-color: #FFFFFF;
@@ -83,3 +87,47 @@ h2, p {
     height: 378px;
     width: 404px;
 }
+
+.filters__up_right::after {
+    content: "";
+    background: url(./children10.png) no-repeat;
+    opacity: 0.2;
+    top: 75px;
+    left: 590px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+
+.filters__up_left::after {
+    content: "";
+    background: url(./children11.png) no-repeat;
+    opacity: 0.2;
+    top: 65px;
+    left: 110px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  .filters__down_left::after {
+    content: "";
+    background: url(./children14.png) no-repeat;
+    opacity: 0.2;
+    top: 440px;
+    left: 570px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  .filters__down_right::after {
+    content: "";
+    background: url(./children13.png) no-repeat;
+    opacity: 0.2;
+    top: 460px;
+    left: 140px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
