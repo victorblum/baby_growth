@@ -47,6 +47,15 @@ h2, p {
     position: relative;
 }
 
+.filters__blocks p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.filters__blocks h4 {
+    font-size: 18px;
+}
+
 .filters__blocks hr {
     border: none;
     background-color: #FFFFFF;
